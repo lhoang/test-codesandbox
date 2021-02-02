@@ -2,7 +2,8 @@ import App from "./App.svelte";
 
 const app = new App({
   props: {
-    name: "world"
+    name: "you",
+    url: "./data.json"
   },
   target: document.body
 });
